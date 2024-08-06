@@ -14,7 +14,7 @@ const App: React.FC = () => {
 	return (
 		<><AnonAadhaarProvider
 		useTestAadhaar={useTestAadhaar}
-		appName="Anon Aadhaar"
+		appName="Corosuke"
 	>
 		<Navbar />
 		<div className="bg-fixed bg-center bg-bgimg fixed h-full w-full">
