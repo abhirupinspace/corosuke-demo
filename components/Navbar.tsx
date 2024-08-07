@@ -22,10 +22,9 @@ const Navbar = () => {
                 <Link to={"/payments"}>
                     <p>Try Payments</p>
                 </Link>
-                
-                <Link to={"/profile"}>
-                    <p>Profile</p>
-                </Link>
+                <a href="https://gkhxhkdmreh.typeform.com/to/bpazfezw" target='_blank'>
+                    <p>Pre Register</p>
+                </a>
             </div>
             <ConnectButton
                 client={client}
