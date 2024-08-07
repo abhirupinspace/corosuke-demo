@@ -6,7 +6,7 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import PaymentPage from "./pages/PaymentPage";
-import Profile from "./pages/Profile";
+import Register from "./pages/Register";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -14,7 +14,6 @@ createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<App />} />
-                    <Route path='/profile' element={<Profile />} />
                     <Route path='/payments' element={<PaymentPage />} />
                 </Routes>
             </BrowserRouter>

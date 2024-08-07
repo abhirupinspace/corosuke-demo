@@ -17,7 +17,7 @@ const App: React.FC = () => {
 		appName="Corosuke"
 	>
 		<Navbar />
-		<div className="bg-fixed bg-center bg-bgimg fixed h-full w-full">
+		<div className=" bg-bgimg bg-cover bg-fixed bg-center bg-no-repeat h-full w-full">
 		
 			<main className="p-2 pb-10 min-h-[100vh] flex items-center justify-center container max-w-screen-lg mx-auto">
 				<div className="py-10">
