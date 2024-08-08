@@ -58,9 +58,7 @@ const Home: React.FC<HomeProps> = ({ setUseTestAadhaar, useTestAadhaar }) => {
             >
               Switch to {useTestAadhaar ? "real" : "test"} Aadhaar mode
             </button>
-          </div>
-        </main>
-        <div className="text-2xl flex flex-col items-center gap-4 rounded-2xl max-w-screen-sm mx-auto p-8">
+          </div><div className="text-2xl flex flex-col items-center gap-4 rounded-2xl max-w-screen-sm mx-auto p-8">
           {anonAadhaar.status === "logged-in" && (
             <>
               <p>✅ Proof is valid</p>
@@ -72,6 +70,8 @@ const Home: React.FC<HomeProps> = ({ setUseTestAadhaar, useTestAadhaar }) => {
             </>
           )}
         </div>
+        </main>
+        
       </div>
     </>
   );
